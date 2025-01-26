@@ -1,0 +1,174 @@
+ 
+
+@font-face {
+    font-family: "digital";
+    src: url("digital.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body{
+    margin:0;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(16, 17, 17);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+
+}
+
+.scrn{
+    background-color: rgb(228, 240, 61);
+    color: rgb(61, 65, 7);
+    padding: 15px 20px;
+   box-shadow: inset 0pc 0px 12px rgba(124, 132, 8, 0.826);
+    
+   border: 1px solid rgba(124, 132, 8, 0.545);
+   position: relative;
+   border-radius: 4px;
+   overflow: hidden;
+   justify-content: flex-end;
+  font-family: digital;
+}
+
+.plst{
+    background:linear-gradient(to left, #5c54548b,#0000001d , #5c54548b );
+    width: 600px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid  #5c545435;
+    box-shadow: 0px 0px 6px 1px rgba(83, 76, 76, 0.448);
+    position: relative;
+    font-family: digital;
+}
+
+.ans1{
+    display: flex;
+    align-content:space-evenly;
+    flex-shrink: 0;
+    
+    
+  
+}
+
+.ans2{
+    flex-shrink: 0;
+    display: flex;
+    margin-top: -30px;
+}
+
+.ans3{
+    flex-shrink: 0;
+    display: flex;
+    margin-top: -30px;
+}
+
+.results{
+    margin-top:5px ;
+    float: right;
+}
+
+#siun{
+    opacity: 0.8;
+    padding-left: 8px;
+}
+
+.phs1{
+    padding-left:18px ;
+     padding-bottom: 8px;
+    height: auto;
+}
+.phs1 button{
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 4px;
+    border:rgba(124, 132, 8, 0.532) 1.5px ;
+    position: inherit;
+    border-style:groove;
+    cursor: pointer;
+    color: rgb(58, 61, 15);
+    font-size: large;
+    padding: 3px 10px;
+    box-shadow: 0px 0px 6px 1px rgba(83, 76, 76, 0.192);
+    font-family: digital;
+
+}
+
+
+.phs1 button:active{
+    background-color:rgba(58, 61, 15, 0.684) ;
+    color: rgb(227, 241, 30);
+    box-shadow: 0px 0px 6px 1px rgba(83, 76, 76, 0.192);
+}
+
+.phs1 button:hover{
+    box-shadow: 0px 0px 9px 1px rgba(83, 76, 76, 0.4);
+    font-size:larger;
+}
+
+input{
+    max-width: 110px;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 4px;
+    border:rgba(124, 132, 8, 0.532) 1.5px ;
+    position: inherit;
+    border-style:groove;
+    cursor: pointer;
+    color: rgb(58, 61, 15);
+    padding: 3px 10px;
+    box-shadow: 0px 0px 6px 1px rgba(83, 76, 76, 0.192);
+    font-family: digital;
+
+}
+
+::placeholder{
+    color: rgba(58, 61, 15, 0.663);
+}
+
+.calculate{
+    background-color:rgba(58, 61, 15, 0.684) ;
+    color: rgb(227, 241, 30);
+    box-shadow: 0px 0px 4px 1px rgba(83, 76, 76, 0.514);
+    font-size: large;
+    border-radius: 4px;
+    border:rgba(124, 132, 8, 0.532) 1.5px ;
+    padding: 3px 10px;
+    cursor: pointer;
+    visibility:hidden;
+    margin: 20px;
+     
+}
+.calculate:hover{
+    background-color: rgba(58, 61, 15, 0.418);
+    color: rgba(58, 61, 15, 0.479);
+}
+.calculate:active{
+    background-color:rgba(58, 61, 15, 0.684) ;
+    color: rgb(227, 241, 30);
+    box-shadow: 0px 0px 6px 1px rgba(83, 76, 76, 0.192);
+    
+}
+
+ .htxt{
+    color: rgb(227, 241, 30);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.viz{
+    visibility: visible;
+}
+
+.inviz{
+    visibility: hidden;
+}
+
+footer{
+
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    padding: 50px 68px;
+    margin: 0px 50px;
+}
