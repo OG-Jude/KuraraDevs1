@@ -1,0 +1,283 @@
+@font-face{
+        font-family: "digital";
+        src: url("fonts/digital.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+
+
+} 
+
+html{
+  scrollbar-width: none;
+}
+::-webkit-scrollbar{
+  margin-left: 1em;
+}
+::-webkit-scrollbar{
+  background-color:rgb(74, 58, 18);
+  border:3px solid rgb(126, 98, 36) ;
+  width: 6px;
+  height: 0px;
+  right:10%;
+  border-radius: 6px;
+ 
+}
+::-webkit-scrollbar-thumb:active{
+  background-color:rgb(135, 102, 17);
+  cursor: grabbing;
+}
+::-webkit-scrollbar-thumb{
+  background-color:rgb(177, 137, 36) ;
+  border-radius: 6px;
+   border: 1px solid rgb(74, 58, 18);
+   cursor: grab;
+
+}
+
+.blr{
+  background-color: rgba(255, 255, 255, 0);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  backdrop-filter: blur(4px);
+   
+  
+}
+.popadvn{
+  width: 260px;
+ text-align: center;
+  z-index: 2;
+  background-color: rgb(250, 199, 82);
+  border-radius: 18px;
+  font-family: "digital";
+  top: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%) scale(0.1);
+  letter-spacing: 2px;
+  visibility: hidden;
+  transition: transform 1.9s, top 1,9s;
+  
+}
+
+.opnpop{
+top: 50%;
+transform: translate(-50%,-50%) scale(1);
+visibility: visible;
+
+}
+
+
+
+
+.popadvn p {
+  color: rgb(250, 199, 82);
+  background-color:rgb(74, 58, 18);
+  padding: 2px;
+}
+.popadvn h5{
+  margin-bottom: -9px;
+}
+
+.popadvn h3{
+  position: absolute;
+  transform: translate(80px,-30px);
+  color: rgb(250, 199, 82);
+  background-color: rgb(74, 58, 18);
+  width: 100px;
+  padding: 3px;
+  border-radius: 8px;
+  
+}
+
+.popbtn{
+  border-radius: 1em;
+  width: 60px;
+  color: rgb(248, 200, 90);
+  font-family: "digital";
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+.popbtn:active{
+  color: rgb(74, 58, 18);
+  background-color: rgb(248, 200, 90);
+  
+}
+
+
+
+
+a{
+  color: rgb(140, 212, 81);
+}
+
+footer{
+  background-color:  rgb(74, 58, 18);
+  color:  rgb(241, 197, 85);
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+body{
+  background-color:rgb(121, 94, 31) ;
+  padding: 0px;
+   scrollbar-width: none;
+ }
+
+.t4b{
+  display:flex;
+  justify-content:space-evenly;
+  background-color: rgb(126, 98, 36);
+  height: 120px;
+ 
+  padding: 14px;
+  margin-bottom: 18px;
+  border-radius: 2px;
+}
+
+.lchem , .rchem{
+  display: flex;
+  flex-direction: column;
+   overflow: scroll;
+  margin-inline: 5px;
+ 
+}
+
+.dataa{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(115, 88, 24);
+  border-radius: 4px;
+  padding: 6px;
+  height:fit-content;
+  align-content: center;
+  align-items: center;
+ margin: 22px;
+ background-color:rgb(144, 111, 34) ;font-family: "digital";
+ 
+}
+
+
+.txtt{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(119, 94, 34);
+  margin: 0;
+  padding:8px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  height: fit-content;
+  border-radius: 4px;
+  color:rgb(228, 195, 76) ;
+
+}
+
+
+
+.txtt h3{
+  display: flex;
+  flex-direction:row;
+  border-radius: 2px;
+  border: 1px solid rgb(53, 42, 15);
+  margin: 2px;
+  padding: 6px;
+  background-color: rgb(74, 58, 18);
+  font-weight: normal;
+  
+}
+
+.txtt h3 p{
+   
+   color: rgb(38, 229, 17);
+  margin-left: 26px;
+  margin-right: 10px;
+  background-color: rgb(43, 33, 10);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: width 6s;
+ 
+}
+
+ 
+            
+                  /* ---- buttons----  */
+
+ button{
+  color: rgb(255, 220, 96);
+  cursor: pointer;
+  background-color:rgb(74, 58, 18) ;
+  transition: border-color 0.3s ease;
+  letter-spacing: 3px; 
+  box-shadow: 2px 1px 2px rgb(74, 58, 18) ;
+ }
+
+ button:active{
+  box-shadow: 0px 0px 14px rgb(148, 116, 35)
+ }
+
+.dataa button{
+
+ 
+ margin-top: 8px;
+ margin-bottom: 16px;
+ border-radius: 6px;
+      
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+}
+
+.cmpt:hover{
+  box-shadow: 2px 3px 3px rgb(46, 36, 10) ;
+  font-size: 26px;
+  
+
+}
+
+.cmpt:active{
+  color: rgb(74, 58, 18);
+  background-color: rgb(248, 200, 90);
+}
+
+.cmpt {
+  font-family: "digital";
+  font-size: 27px;
+  letter-spacing: 3px;
+  margin-left: 68px;
+  
+}
+
+/* ----- anim -----*/
+
+.vCell{
+  border-top-right-radius:0px ;
+  border-bottom-right-radius:0px ;
+  border-right-style:dashed;
+  border-right: 3px solid  rgb(38, 229, 17);
+  animation: typing 3s steps(6),
+              cursor .4s step-end infinite alternate ;
+}
+
+@keyframes cursor{
+  50% {border-color: transparent}
+}
+
+@keyframes typing {
+  from {width: 0;}
+}
+
+
+
+/* ----- Chemical Equations -----*/
+
+.chmeq{
+  margin: 2px;
+}

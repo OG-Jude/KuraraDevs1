@@ -1,0 +1,35 @@
+              /* Buttons */
+
+                     /* Js ClassLists*/
+
+.actv{
+  border-color: red;
+  background-color: rgb(248, 200, 90);
+  border-width: 3px;
+  font-weight: bolder;
+  color:rgb(74, 58, 18);
+  font-family:digital;
+}
+
+.cactv{
+  border-color: #008cff;
+  background-color: rgb(248, 200, 90);
+  border-width: 3px;
+  font-weight: bolder;
+  color:rgb(74, 58, 18);
+  font-family:digital;
+}
+
+.rn{
+  width:auto}
+
+
+.btnlock{
+    
+    background-color: rgb(94, 75, 30);
+    color: rgb(59, 46, 12);
+   border-color: rgb(75, 58, 17);
+    cursor: alias;
+
+}
+
